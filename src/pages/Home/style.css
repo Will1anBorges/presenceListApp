@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container header {
+    width: 50%;
+    margin: 84px 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.container header div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.container input {
+    width: 50%;
+    padding: 24px;
+    
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    background: rgb(218, 184, 184);
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 16px;
+    
+}
+
+.container button {
+    width: 50%;
+    padding: 24px;
+
+    margin: 16px 0 48px;
+
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    background: rgb(126, 172, 66);
+
+    font-weight: 800;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.container button:hover {
+    filter: brightness(0.8);
+}
